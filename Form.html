@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form | Gorkha Secondary School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="navbar">
+      <div class="logo">
+        <span class="logo-icon">🎓</span>
+        <span class="logo-text">Gorkha Secondary School</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="staff.html">Staff</a>
+        <a href="Form.html" class="active">Admission Form</a>
+        <a href="Login.html">Login</a>
+      </nav>
+    </header>
+
+    <section class="gallery-header">
+      <h2>Student Admission Form</h2>
+      <p>
+        Please fill in the required details carefully for student admission.
+        All information provided should be correct.
+      </p>
+    </section>
+
+    <section style="padding: 40px 60px 80px;">
+      <form>
+
+        <table border="0" width="100%" cellpadding="10" cellspacing="0">
+          
+          <tr>
+            <th colspan="2">Personal Information</th>
+          </tr>
+
+          <tr>
+            <td>Full Name</td>
+            <td><input type="text" name="fullname" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="dob" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender"> Male
+              <input type="radio" name="gender"> Female
+              <input type="radio" name="gender"> Other
+            </td>
+          </tr>
+
+          <tr>
+            <td>Address</td>
+            <td><input type="text" name="address" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <th colspan="2">Academic Information</th>
+          </tr>
+
+          <tr>
+            <td>Class Applying For</td>
+            <td>
+              <select style="width:100%;">
+                <option>Select Class</option>
+                <option>Nursery</option>
+                <option>KG</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Previous School</td>
+            <td><input type="text" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <th colspan="2">Contact Information</th>
+          </tr>
+
+          <tr>
+            <td>Parent/Guardian Name</td>
+            <td><input type="text" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <td>Phone Number</td>
+            <td><input type="tel" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <td>Email Address</td>
+            <td><input type="email" style="width:100%;"></td>
+          </tr>
+
+          <tr>
+            <td>Additional Message</td>
+            <td>
+              <textarea rows="4" style="width:100%;"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">
+              <button type="submit" style="padding:14px 40px; margin-top: 15px;">
+                Submit Application
+              </button>
+            </td>
+          </tr>
+
+        </table>
+
+      </form>
+    </section>
+
+  </div>
+</body>
+</html>
