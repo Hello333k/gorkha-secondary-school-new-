@@ -670,7 +670,7 @@ button[type="submit"]:active {
 .login-box button {
   width: 100%;
   padding: 15px;
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+  background: #e63946;
   color: white;
   border: none;
   border-radius: 12px;
@@ -684,7 +684,7 @@ button[type="submit"]:active {
 .login-box button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 107, 107, 0.5);
-  background: linear-gradient(135deg, #ee5a6f 0%, #ff4757 100%);
+  background: #d62839;
 }
 
 .login-box a {
