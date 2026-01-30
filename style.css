@@ -680,6 +680,7 @@ button[type="submit"]:active {
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
 }
+   
 
 .login-box button:hover {
   transform: translateY(-2px);
